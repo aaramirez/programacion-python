@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Programación en Python</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="El primer curso de programación: variables, decisiones, bucles, colecciones, funciones, módulos, archivos, errores y una primera prueba con pytest, con código que corre en la misma página.">
+<meta name="description" content="El lenguaje Python para quien ya conoce las bases de la programación: tipos y cadenas, colecciones, iteradores y generadores, clases, módulos, entornos virtuales con pip, archivos y excepciones, con código que corre en la misma página.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=JetBrains+Mono:wght@400;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400;1,8..60,600&display=swap">
@@ -31,16 +31,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <header class="hero">
   <span class="eyebrow">Curso visual e interactivo · Desarrollo de software</span>
-  <h1>Aprende a programar escribiendo Python desde la primera página</h1>
-  <p class="lede">Programar es darle a la computadora instrucciones precisas, y Python es el lenguaje con el que más personas aprenden a hacerlo. Este curso empieza con una línea que imprime un saludo y termina con un programa organizado en módulos, que lee y guarda archivos, maneja sus errores y tiene su primera prueba automática.</p>
+  <h1>Python a la manera de Python, desde la primera página</h1>
+  <p class="lede">Python es el lenguaje con el que más personas aprenden a programar y el que se usa en datos, inteligencia artificial, automatización y servidores. Este curso parte de las ideas que ya conoces (variables, decisiones, bucles y funciones) y enseña lo que es propio de Python: sus tipos, sus colecciones, sus iteradores, sus clases, sus módulos y su manera de manejar errores. Termina con un programa organizado en módulos, con sus dependencias en un entorno virtual, que lee y guarda archivos y tiene sus pruebas.</p>
 </header>
 
 <section>
   <h2>Cómo usar este curso</h2>
   <div class="prose">
-    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 14 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
-    <p><b>Para quién es.</b> Para quien nunca ha programado, o lo intentó y se perdió. No hace falta instalar nada para empezar: el código corre en el navegador. Al final se instala Python en tu computador y se usa la terminal, con los comandos de cada sistema operativo.</p>
-    <p><b>Cómo está hecho.</b> Un mismo ejemplo crece a lo largo del curso: un registro de gastos personales, que empieza como una suma y termina como un programa con módulos, archivos y pruebas. Cada capítulo trae editores donde cambias el código y ves el resultado al instante, gracias a Pyodide, que ejecuta Python dentro de la página.</p>
+    <p><b>Estado.</b> El curso está en preparación. La <a href="temario.html">tabla de contenido</a> ya tiene los 11 capítulos con sus secciones y sus laboratorios, y está en revisión.</p>
+    <p><b>Para quién es.</b> Para quien ya hizo Fundamentos de programación, o sabe programar en otro lenguaje y quiere aprender Python. Las condiciones, los bucles, las funciones, cómo leer un error y la primera prueba en general están en Fundamentos de programación; aquí se ven solo a la manera de Python. No hace falta instalar nada para empezar: el código corre en el navegador. Más adelante se instala Python en tu computador y se usa la terminal, con los comandos de cada sistema operativo.</p>
+    <p><b>Cómo está hecho.</b> Un mismo ejemplo crece a lo largo del curso: un registro de gastos personales, que empieza como una lista de montos y termina como un programa con módulos, archivos, excepciones y pruebas. Cada capítulo trae editores donde cambias el código y ves el resultado al instante, gracias a Pyodide, que ejecuta Python dentro de la página.</p>
   </div>
 </section>
 
@@ -50,37 +50,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </details>
 
-<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Primeros pasos</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
+<details class="stage" id="parte-1" open><summary><h2><span class="pn">Parte 1</span> Python desde lo que ya sabes</h2><span class="cuenta" data-etapa-cuenta="1"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="que-es-programar"><span class="n">01</span><b>Qué es programar y por qué Python</b><p>Un programa es una receta que la computadora sigue al pie de la letra. La primera línea, el primer error y dónde corre Python.</p></div>
-    <div class="mod soon" data-id="valores-y-variables"><span class="n">02</span><b>Valores, tipos y variables</b><p>Números enteros y decimales, verdadero y falso, y las variables como etiquetas que apuntan a un valor.</p></div>
-    <div class="mod soon" data-id="texto"><span class="n">03</span><b>Texto: cadenas, f-strings y entrada del usuario</b><p>Trabajar con palabras: unir, cortar, buscar, dar formato y pedirle datos a quien usa el programa.</p></div>
+    <div class="mod soon" data-id="por-que-python"><span class="n">01</span><b>Por qué Python y cómo se escribe</b><p>De dónde viene Python, dónde corre y cómo se escriben en él las condiciones, los bucles y las funciones que ya conoces.</p></div>
+    <div class="mod soon" data-id="valores-tipos-y-cadenas"><span class="n">02</span><b>Valores, tipos y cadenas en Python</b><p>Números, booleanos y texto en Python: todo es un objeto, las variables son etiquetas y las cadenas no se modifican.</p></div>
   </div>
 </details>
 
-<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Decidir y repetir</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
+<details class="stage" id="parte-2" open><summary><h2><span class="pn">Parte 2</span> Colecciones e iteración</h2><span class="cuenta" data-etapa-cuenta="2"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="condiciones"><span class="n">04</span><b>Condiciones: el programa que decide</b><p>Comparaciones, valores lógicos e `if`, `elif` y `else` para tomar caminos distintos.</p></div>
-    <div class="mod soon" data-id="bucles"><span class="n">05</span><b>Bucles: repetir sin copiar</b><p>`while` repite mientras se cumpla una condición y `for` recorre una secuencia, con `range`, `break` y `continue`.</p></div>
-    <div class="mod soon" data-id="listas-y-tuplas"><span class="n">06</span><b>Listas y tuplas</b><p>Guardar muchos valores en orden, recorrerlos, ordenarlos y transformarlos con comprensiones.</p></div>
-    <div class="mod soon" data-id="diccionarios-y-conjuntos"><span class="n">07</span><b>Diccionarios y conjuntos</b><p>Buscar por nombre en lugar de por posición, contar por categoría y quitar repetidos.</p></div>
+    <div class="mod soon" data-id="listas-y-tuplas"><span class="n">03</span><b>Listas y tuplas</b><p>Guardar muchos valores en orden, recorrerlos, ordenarlos y transformarlos con comprensiones.</p></div>
+    <div class="mod soon" data-id="diccionarios-y-conjuntos"><span class="n">04</span><b>Diccionarios y conjuntos</b><p>Buscar por nombre en lugar de por posición, contar por categoría y quitar repetidos.</p></div>
+    <div class="mod soon" data-id="iteradores-y-generadores"><span class="n">05</span><b>Iteradores y generadores</b><p>Qué hace `for` por dentro, y funciones con `yield` que producen valores de a uno sin cargar todo en memoria.</p></div>
   </div>
 </details>
 
 <details class="stage" id="parte-3" open><summary><h2><span class="pn">Parte 3</span> Organizar el código</h2><span class="cuenta" data-etapa-cuenta="3"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="funciones"><span class="n">08</span><b>Funciones</b><p>Darle nombre a un bloque de código, pasarle datos y recibir un resultado.</p></div>
-    <div class="mod soon" data-id="clases-y-objetos"><span class="n">09</span><b>Tus propios tipos: clases y objetos</b><p>Juntar datos y comportamiento en un objeto: clases, `__init__`, métodos y `dataclass`.</p></div>
-    <div class="mod soon" data-id="modulos-y-paquetes"><span class="n">10</span><b>Módulos, paquetes y la biblioteca estándar</b><p>Repartir el programa en archivos, usar lo que Python ya trae e instalar paquetes con pip en un entorno virtual.</p></div>
+    <div class="mod soon" data-id="clases-y-objetos"><span class="n">06</span><b>Tus propios tipos: clases y objetos</b><p>Juntar datos y comportamiento en un objeto: clases, `__init__`, métodos y `dataclass`.</p></div>
+    <div class="mod soon" data-id="modulos-y-paquetes"><span class="n">07</span><b>Módulos, paquetes y la biblioteca estándar</b><p>Repartir el programa en archivos y usar lo que Python ya trae.</p></div>
+    <div class="mod soon" data-id="entornos-virtuales-y-pip"><span class="n">08</span><b>Entornos virtuales y paquetes con pip</b><p>Instalar Python en tu computador, traer paquetes de PyPI y aislar las dependencias de cada proyecto.</p></div>
   </div>
 </details>
 
 <details class="stage" id="parte-4" open><summary><h2><span class="pn">Parte 4</span> Programas que duran</h2><span class="cuenta" data-etapa-cuenta="4"></span></summary>
   <div class="mods">
-    <div class="mod soon" data-id="archivos"><span class="n">11</span><b>Leer y guardar archivos</b><p>Texto, CSV y JSON: que los datos sobrevivan al cerrar el programa.</p></div>
-    <div class="mod soon" data-id="errores-y-excepciones"><span class="n">12</span><b>Errores, excepciones y depuración</b><p>Leer un *traceback*, atrapar lo que puede fallar con `try` y lanzar errores propios.</p></div>
-    <div class="mod soon" data-id="primera-prueba-con-pytest"><span class="n">13</span><b>Tu primera prueba con pytest</b><p>Un programa que comprueba a otro: `assert`, funciones de prueba y la prueba que pasa de rojo a verde.</p></div>
-    <div class="mod soon" data-id="proyecto-final"><span class="n">14</span><b>Proyecto final: el registro de gastos completo</b><p>Todo junto: un programa de línea de comandos con módulos, archivos, errores manejados y pruebas.</p></div>
+    <div class="mod soon" data-id="archivos"><span class="n">09</span><b>Leer y guardar archivos</b><p>Texto, CSV y JSON: que los datos sobrevivan al cerrar el programa.</p></div>
+    <div class="mod soon" data-id="excepciones"><span class="n">10</span><b>Excepciones en Python</b><p>Cómo maneja Python lo que puede fallar: el *traceback*, `try` y sus bloques, la jerarquía de excepciones y las propias.</p></div>
+    <div class="mod soon" data-id="proyecto-final"><span class="n">11</span><b>Proyecto final: el registro de gastos completo</b><p>Todo junto: un programa de línea de comandos con módulos, entorno virtual, archivos, excepciones y pruebas.</p></div>
   </div>
 </details>
 

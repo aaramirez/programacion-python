@@ -8,17 +8,14 @@ Este repositorio solo tiene el sitio generado. El curso está en preparación: l
 
 | # | Capítulo |
 |---|---|
-| 01 | Qué es programar y por qué Python |
-| 02 | Valores, tipos y variables |
-| 03 | Texto: cadenas, f-strings y entrada del usuario |
-| 04 | Condiciones: el programa que decide |
-| 05 | Bucles: repetir sin copiar |
-| 06 | Listas y tuplas |
-| 07 | Diccionarios y conjuntos |
-| 08 | Funciones |
-| 09 | Tus propios tipos: clases y objetos |
-| 10 | Módulos, paquetes y la biblioteca estándar |
-| 11 | Leer y guardar archivos |
-| 12 | Errores, excepciones y depuración |
-| 13 | Tu primera prueba con pytest |
-| 14 | Proyecto final: el registro de gastos completo |
+| 01 | Por qué Python y cómo se escribe |
+| 02 | Valores, tipos y cadenas en Python |
+| 03 | Listas y tuplas |
+| 04 | Diccionarios y conjuntos |
+| 05 | Iteradores y generadores |
+| 06 | Tus propios tipos: clases y objetos |
+| 07 | Módulos, paquetes y la biblioteca estándar |
+| 08 | Entornos virtuales y paquetes con pip |
+| 09 | Leer y guardar archivos |
+| 10 | Excepciones en Python |
+| 11 | Proyecto final: el registro de gastos completo |
